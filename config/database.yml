@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: asfx_development
+  pool: 5
+  username: rs
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: asfx_test
+  pool: 5
+  username: rs
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: asfx_production
+  pool: 5
+  username: rs
+  password:
